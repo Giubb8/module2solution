@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box; 
+}
+/*stylesheet*/
+#R_Name{
+    text-align: center;
+    font-family: 'Petemoss', cursive ;
+    font-weight: normal;
+    font-size: 300%;
+}
+#Menu{
+    font-family: 'Petemoss', cursive ;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 250%;
+}
+.green{
+    background-color:  #009069;
+    color: #f0f1f0;
+}
+.white{
+    background-color:  #f0f1f0;
+}
+.red{
+    background-color:  #cd2a3e;
+    color: #f0f1f0;
+}
+.Course{
+    box-sizing: content-box;
+    border: 1px solid black;
+    float: right;
+    font-size: 40px;
+    text-align: center;
+    margin: 1px;
+    margin-top: 0px;
+    margin-right: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 2px 25px 2px 15px ;
+    width: 20%;
+
+}
+.List{
+    padding: 0px;
+    clear: right;
+    font-weight: normal;
+    font-size: 200%;
+}
+body{
+    font-size: 150%;
+}
+section{
+    box-sizing: border-box;
+    background-color: #fcfaf5;
+    border: 2px solid black;
+    margin:2%;
+}
+
+/* desktop version*/
+@media (min-width: 992px) {
+    .desktop {
+        font-family: 'Petemoss', cursive ;
+        float: left;
+        width: 33%;
+    }
+}
+
+/* tablet version*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .tablet1 {
+        font-family: 'Petemoss', cursive ;
+        float: left;
+        width: 50%;
+	}
+
+	.tablet2 {
+        font-family: 'Petemoss', cursive ;
+        float: left;
+        width: 100%;
+	}
+
+}
+/* mobile version*/
+@media (max-width: 767px) {
+  .mobile{
+    font-family: 'Petemoss', cursive ;
+    float: left;
+    width: 100%;
+  }
+}
